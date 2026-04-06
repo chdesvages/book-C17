@@ -42,7 +42,7 @@ Making code that engages with sound and music can be fun, even with only a very 
 - **coding responsive sound and music for games** or other interactive
     programs.
 
-We will first explore motivations for connecting music with programming, followed by A brief overview of the rich existing work in this domain. The set of practical accompanying resources that can serve as starting points into different kinds of music/coding projects are introduced next.
+We will first explore motivations for connecting music with programming, followed by a brief overview of the rich existing work in this domain. The set of practical accompanying resources that can serve as starting points into different kinds of music/coding projects are introduced next.
 
 
 ## Why combine programming with sound and music? {#sec-why}
@@ -123,7 +123,7 @@ Five example resources accompany this chapter, reflecting some of the different 
 
 ### Creating a piano piece with Python
 
-This resource is aimed at students who have started on Python quite recently. It attempts to make musical output as simple and accessible as possible. Students are shown how to generate piano pieces as MIDI data which can be played back directly within a Python notebook. Students can develop their understanding of fundamental concepts programming concepts such as lists, loops and conditionals. The ability to directly hear the results is intended to motivate students to think about how they can develop the code by themselves to try to explore how they can start to tailor the musical output towards something they find sonically interesting or satisfying.
+This resource is aimed at students who have started on Python quite recently. It attempts to make musical output as simple and accessible as possible. Students are shown how to generate piano pieces as MIDI data which can be played back directly within a Python notebook. Students can develop their understanding of fundamental programming concepts such as lists, loops and conditionals. The ability to directly hear the results is intended to motivate students to think about how they can develop the code by themselves to try to explore how they can start to tailor the musical output towards something they find sonically interesting or satisfying.
 
 ::: {#fig-python-piano layout="[45, 55]" layout-valign="bottom"}
 
@@ -175,7 +175,7 @@ This resource demonstrates the creation of a web-based musical instrument that c
 
 ![Exported web app](/chapters/images/C17_fig5b_web_seq_demo.png){fig-alt="A screenshot of a web app with sliders and controls, shown on a mobile device."}
 
-Max (left), a visual programming language is used to create the instrument. RNBO, an extension of MAX can be used to export patches to external targets such as C++, VSTs, JavaScript or Raspberry Pi. The exported web app (right) can be accessed on a mobile web browser. The program will then map the relevant motion sensors to the assigned parameters.
+Max (left), a visual programming language is used to create the instrument. RNBO, an extension of MAX can be used to export patches to external targets such as C++, VSTs (Virtual Studio Technology), JavaScript or Raspberry Pi. The exported web app (right) can be accessed on a mobile web browser. The program will then map the relevant motion sensors to the assigned parameters.
 
 :::
 
