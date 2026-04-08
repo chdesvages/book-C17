@@ -183,6 +183,25 @@ One of the potential benefits of working in this way is that although students s
 
 The example provided here is a responsive synthesiser hosted on the web that, when accessed from a smartphone, utilises the motion sensors to control specific parameters of the synthesiser. Once the code has been exported, it can be further developed through the generated JavaScript/HTML. In this example, a simple sequencer for playing notes and visual feedback is added using the [p5.js](https://p5js.org/) library. Motion data from a smartphone's orientation sensors is mapped in real time so that gestures like tilting or twisting can be used to control the sound. The resource is provided as a worked example that can be adapted for musical instruments, live installations, audience-participation performances, or experimental audio-visual tools.
 
+### Building a digital circuit to play sounds and notes using Logisim Evolution
+
+This resource is aimed at students in digital logic who have started on [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) quite recently.
+It demonstrates how to use a buzzer to play sounds and notes.
+The ability to generate sounds is intended to make learning about digital logic more fun and engaging.
+
+Only minimal knowledge is required to test run the project and it can be used as part of a tutorial on digital logic and Logisim Evolution.
+Alternatively, it could be used as an assignment.
+It can also be used in music teaching to explain how notes relate to frequencies.
+
+Three main example circuits are provided:
+a minimal example showing how to use the buzzer;
+a slightly more advanced example, introducing a bit extender and an adder;
+and a circuit playing the C major scale using a counter and a multiplexer (@fig-logisim-scale).
+
+![A digital circuit in Logisim Evolution, used to play the C major scale. The notes are encoded as hexadecimal frequency values and provided as input to a multiplexer. A counter (created as a sub-circuit) runs continuously and is used to select the multiplexer inputs (i.e. the note frequencies) in ascending and descending sequence and pass them on to the buzzer to be played.](/chapters/images/C17_fig6_scale_example.png){#fig-logisim-scale width=70% fig-alt="A screenshot of the Logisim Evolution software, showing the digital circuit used to play the C major scale."}
+
+Motivated students/learners can then potentially go further by creating a complete digital piano keyboard or synthesizer, or play preset tunes from a digital memory.
+Such circuits could then potentially be implemented in real hardware later on.
 
 ## Summary {#sec-summary}
 
