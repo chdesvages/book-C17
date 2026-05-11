@@ -188,7 +188,8 @@ The example provided here is a responsive synthesiser hosted on the web that, wh
 
 ### Building a digital circuit to play sounds and notes using Logisim Evolution
 
-This resource is aimed at students in digital logic who have started on [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution) quite recently.
+This resource explores sound and music making in the context of logic circuits.
+It is aimed at students working with the basics of digital logic circuit simulator [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution).
 It demonstrates how to use a buzzer to play sounds and notes.
 The ability to generate sounds is intended to make learning about digital logic more fun and engaging.
 
